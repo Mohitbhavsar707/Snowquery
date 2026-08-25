@@ -5,8 +5,8 @@ import streamlit as st
 from src.assistant import GroundedAssistant
 
 
-st.set_page_config(page_title="Grounded Data Assistant", page_icon="❄️", layout="wide")
-st.title("❄️ Grounded Data Assistant")
+st.set_page_config(page_title="SnowQuery", page_icon="❄️", layout="wide")
+st.title("❄️ SnowQuery")
 st.caption("Schema RAG → constrained SQL → warehouse result → cited answer")
 
 backend = os.getenv("WAREHOUSE_BACKEND", "duckdb")
@@ -39,4 +39,3 @@ if question:
         st.warning(str(exc))
     except Exception as exc:
         st.error(f"Query failed: {exc}")
-
