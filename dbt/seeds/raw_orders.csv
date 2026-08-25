@@ -1,0 +1,16 @@
+order_id,order_date,customer_id,customer_name,category,region,quantity,unit_price
+O001,2025-01-05,C001,Ada Labs,Electronics,East,2,399.00
+O002,2025-01-12,C002,Northwind,Office,West,5,24.50
+O003,2025-01-25,C003,Maple Co,Furniture,North,1,899.00
+O004,2025-02-02,C001,Ada Labs,Office,East,10,12.00
+O005,2025-02-14,C004,Bluebird,Electronics,South,1,749.00
+O006,2025-02-27,C005,Orbit Inc,Furniture,West,2,450.00
+O007,2025-03-03,C002,Northwind,Electronics,West,3,199.00
+O008,2025-03-11,C006,Cedar Works,Office,North,12,18.00
+O009,2025-03-20,C003,Maple Co,Furniture,North,1,1200.00
+O010,2025-04-01,C004,Bluebird,Electronics,South,2,549.00
+O011,2025-04-15,C005,Orbit Inc,Office,West,20,9.50
+O012,2025-04-28,C001,Ada Labs,Furniture,East,1,650.00
+O013,2025-05-06,C006,Cedar Works,Electronics,North,4,149.00
+O014,2025-05-18,C002,Northwind,Furniture,West,2,325.00
+O015,2025-05-30,C003,Maple Co,Office,North,8,31.00

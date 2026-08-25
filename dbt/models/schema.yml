@@ -1,0 +1,25 @@
+version: 2
+models:
+  - name: stg_orders
+    description: Cleaned and typed order records from the raw seed.
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+  - name: fct_orders
+    description: One row per e-commerce order with calculated revenue.
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+      - name: revenue
+        tests: [not_null]
+  - name: mart_monthly_sales
+    description: Monthly order, unit, and revenue metrics.
+    columns:
+      - name: order_month
+        tests: [not_null, unique]
+  - name: mart_category_sales
+    description: Order, unit, and revenue metrics by product category.
+    columns:
+      - name: category
+        tests: [not_null, unique]
+

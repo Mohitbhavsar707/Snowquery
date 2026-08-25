@@ -1,0 +1,16 @@
+name: snowflake_rag
+version: 1.0.0
+config-version: 2
+profile: snowflake_rag
+model-paths: ["models"]
+seed-paths: ["seeds"]
+models:
+  snowflake_rag:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
+seeds:
+  snowflake_rag:
+    +schema: raw
+

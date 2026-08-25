@@ -1,0 +1,11 @@
+[
+  {"question": "What was total revenue by category?", "expected_model": "mart_category_sales", "expected_column": "revenue"},
+  {"question": "Which product category sold the most?", "expected_model": "mart_category_sales", "expected_column": "units_sold"},
+  {"question": "Show the monthly revenue trend", "expected_model": "mart_monthly_sales", "expected_column": "order_month"},
+  {"question": "How many orders were placed each month?", "expected_model": "mart_monthly_sales", "expected_column": "order_count"},
+  {"question": "Which region had the most orders?", "expected_model": "fct_orders", "expected_column": "region"},
+  {"question": "Compare revenue by region", "expected_model": "fct_orders", "expected_column": "revenue"},
+  {"question": "Who are the top 5 customers by revenue?", "expected_model": "fct_orders", "expected_column": "customer_name"},
+  {"question": "What is total sales revenue?", "expected_model": "fct_orders", "expected_column": "total_revenue"}
+]
+

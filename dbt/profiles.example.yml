@@ -1,0 +1,14 @@
+snowflake_rag:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'ACCOUNTADMIN') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'RAG_DEMO') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'RAG_WH') }}"
+      schema: analytics
+      threads: 4
+
