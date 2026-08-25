@@ -5,4 +5,9 @@ __pycache__/
 target/
 logs/
 .user.yml
-
+.env
+.env.*
+!.env.example
+.DS_Store
+.pytest_cache/
+.coverage
