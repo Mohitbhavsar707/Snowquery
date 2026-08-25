@@ -136,7 +136,6 @@ snowflake/setup.sql        warehouse, database and schema setup
 scripts/bootstrap_local.py local DuckDB bootstrap
 tests/                     deterministic unit and integration tests
 ```
-
 ## Safety and grounding
 
 - Only a supported analytical intent can produce SQL.
