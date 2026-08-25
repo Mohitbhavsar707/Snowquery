@@ -90,11 +90,3 @@ dbt/models/               staging and mart SQL + tests/docs
 dbt/seeds/raw_orders.csv  small public-style synthetic dataset
 snowflake/setup.sql       Snowflake objects
 ```
-
-## Honest resume wording
-
-After running the Snowflake/dbt path:
-
-> Built a grounded natural-language analytics assistant on Snowflake, modeled raw order data into tested marts with dbt, retrieved schema context before SQL generation, and evaluated retrieval and executable-answer accuracy against a golden question set.
-
-Until then, describe it as **Snowflake-ready** rather than deployed on Snowflake.
